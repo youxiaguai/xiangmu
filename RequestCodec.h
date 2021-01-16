@@ -3,6 +3,7 @@
 #include "Message.pb.h"
 #include <iostream>
 using namespace std;
+
 struct RequestInfo
 {
     int cmd;
@@ -15,6 +16,7 @@ struct RequestInfo
 class RequestCodec :
     public Codec
 {
+public:
     RequestCodec();
     RequestCodec(string encstr);
     RequestCodec(RequestInfo *info);

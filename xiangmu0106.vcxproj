@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -143,15 +143,28 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Codec.cpp" />
+    <ClCompile Include="ConnectPool.cpp" />
+    <ClCompile Include="Factory.cpp" />
     <ClCompile Include="Message.pb.cc" />
     <ClCompile Include="RequestCodec.cpp" />
+    <ClCompile Include="RequestFactory.cpp" />
     <ClCompile Include="RespondCodec.cpp" />
+    <ClCompile Include="RespondFactory.cpp" />
+    <ClCompile Include="TcpSocket.cpp" />
+    <ClCompile Include="TcpServer.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Codec.h" />
+    <ClInclude Include="ConnectPool.h" />
+    <ClInclude Include="Factory.h" />
     <ClInclude Include="Message.pb.h" />
     <ClInclude Include="RequestCodec.h" />
+    <ClInclude Include="RequestFactory.h" />
     <ClInclude Include="RespondCodec.h" />
+    <ClInclude Include="RespondFactory.h" />
+    <ClInclude Include="TcpSocket.h" />
+    <ClInclude Include="TcpServer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

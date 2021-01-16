@@ -27,6 +27,27 @@
     <ClCompile Include="RespondCodec.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RespondFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectPool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Factory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Message.pb.h">
@@ -39,6 +60,24 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="RespondCodec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RequestFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RespondFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpSocket.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
